@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <div class='padre'>
+
+    <div class="contenedor-izquierdo">
+      <img class="logo" src="Logo.png" alt="">
+
+      <textarea class="ingresar-texto"></textarea>
+      <div class="botonera">
+        <p class="texto-sugerencia"><i class="bi bi-exclamation-circle-fill"></i></i>Solo letras minúsculas y sin
+          acentos</p>
+        <div class="botones">
+          <button class="boton-encriptar">Encriptar</button>
+          <button class="boton-desencriptar">Desencriptar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="contenedor-derecho">
+      <div class="sin-mensaje">
+        <img class="img-munieco" src="Muñeco.png" alt="">
+        <p class="texto-principal">Ningún mensaje fue encontrado</p>
+        <p class="texto-secundario">Ingresa el texto que desees encriptar o desencriptar.</p>
+
+      </div>
+
+      <div class="con-mensaje none">
+        <textarea class="texto-encriptador" name="" id="" cols="30" rows="10"></textarea>
+        <button class="boton-copiar">Copiar</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

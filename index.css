@@ -1,0 +1,171 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E5E5E5;
+
+}
+
+.padre {
+  background-color: #E5E5E5;
+  display: flex;
+  flex-flow: row wrap;
+  width: auto;
+  max-width: 1920px;
+  max-height: 750px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.contenedor-izquierdo {
+  flex: 1 1 auto;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.ingresar-texto {
+  display: block;
+  background-color: #E5E5E5;
+  height: 50vh;
+  width: 60%;
+  margin: 30px auto;
+  border: none;
+  resize: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: #0A3871;
+}
+
+.ingresar-texto:focus {
+  border: none;
+  outline: none;
+}
+
+.botonera {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.texto-sugerencia {
+  width: 74%;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.botones {
+  margin: 24px;
+  width: 89%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.boton-encriptar {
+  background-color: #0A3871;
+  color: #fff;
+  width: 40%;
+  height: 70px;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.boton-desencriptar {
+  background-color: #D8DFE8;
+  color: #0A3871;
+  width: 40%;
+  height: 70px;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* contenedor 2 */
+
+.contenedor-derecho {
+  background-color: #fff;
+  flex: 0 1 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  border-radius: 15px;
+  text-align: center;
+  margin: 30px;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+.img-munieco {
+  width: 336px;
+  height: 304px;
+  margin: 0 auto;
+}
+
+.texto-principal {
+  width: 80%;
+  margin: 10px auto;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Inter';
+}
+
+.texto-secundario {
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.con-mensaje {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.texto-encriptador {
+  display: block;
+  height: 30vh;
+  width: 60%;
+  margin: 30px auto;
+
+  border: none;
+  resize: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  color: #495057;
+}
+
+.boton-copiar {
+  width: 60%;
+  margin: 30px auto;
+  padding: 24px;
+
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+}
+
+.none {
+  display: none;
+}
+
+@media all and (max-width:850px) {
+  .contenedor-derecho {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .img-munieco {
+    display: none;
+  }
+}
